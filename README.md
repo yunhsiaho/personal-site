@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Inspired by the Youtube video of [The Hyper Art](https://www.youtube.com/watch?v=GVjIflROwJ4&list=WL&index=1).
 Figma design is :
-
+Libraries used: react icons, mui
 ## Available Scripts
 
 In the project directory, you can run:
