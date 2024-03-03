@@ -1,9 +1,11 @@
-import React from 'react'
-import About from './About'
-import Resume from './Resume'
-import Portfolio from './Portfolio'
-import Contact from './Contact'
-import Navbar from './Navbar'
+import React from 'react';
+import About from './About';
+import Resume from './Resume';
+import Portfolio from './Portfolio';
+import Profile from './Profile';
+import Navbar from './Navbar';
+import Footer from './Footer'
+
 
 const Home = () => {
   return (
@@ -12,8 +14,8 @@ const Home = () => {
       <About/>
       <Resume/>
       <Portfolio/>
-      <Contact/>
-
+      <Profile/>
+      <Footer/>
     </div>
   )
 }
