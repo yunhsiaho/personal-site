@@ -13,7 +13,7 @@ const Navbar = () => {
   ]
   return (
     <nav>
-      <div className="topbar"></div>      
+      <div className="topbar"></div>  
       <div className="navbar-container">
         <a href="#about" className="bungee-hairline-regular">about</a>
         <a href="" className="bungee-hairline-regular">resume</a>

@@ -1,15 +1,16 @@
 /* main */
 *{
-    background-color: #F5F5F5;
+    background-color: #FBEBDA;
     color:#54413B;
     width: 100%;
-    overflow: hidden;
-    /* display: flex; */
-    /* flex-direction: column; */
+    overflow-x: hidden;
+    margin: auto;
 }
 .container{
     position: relative;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    height: 30rem;
+    background-color:transparent;
 }
 /* fonts */
 .bungee-regular {
@@ -17,17 +18,22 @@
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+    background-color: transparent;
   }
   .bungee-hairline-regular {
     font-family: "Bungee Hairline", sans-serif;
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
+    background-color: transparent;
+
   }
   .arvo-regular {
     font-family: "Arvo", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: transparent;
+
   }
   
   /* .arvo-regular-italic {
@@ -48,7 +54,25 @@
     font-style: italic;
   } */
       
-/* navbar */
+
+/* home */
+.home-container #top-img{
+    width: 110%;
+    top: -50px;
+    left: -80px;
+    position: absolute;
+    background-color: transparent;
+
+}
+.home-container #bottom-img{
+    width: 110%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 0;
+    left: -5rem;
+    margin-top: -43%;
+}
+
 .topbar{
     height:1.8rem;
     background-color: #826A5F;
@@ -62,6 +86,8 @@
     top: 2.5rem;
     display: flex;
     justify-content:space-around;
+    text-align: center;
+    background-color: transparent;
 }
 
 
@@ -85,13 +111,13 @@
 
 /* footer */
 .footer-container{
-    height:14rem;
+    /* height:14rem; */
     background-color: #826A5F;
     /* border : 1px solid purple ; */
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -100,6 +126,7 @@
 .footer-container .content>*, .footer-container p{
     background-color: #826A5F; 
     color: #FBEBDA;
+    z-index: 3;
 
     /* border : 1px solid red; */
     
@@ -107,6 +134,7 @@
 
 .footer-container .content{
     display: flex;
+    z-index: 3;
     /* border : 1px solid lightblue ; */
     
 
@@ -138,6 +166,9 @@
 .footer-container .content-name-p{
     /* border : 1px solid black ; */
     width: 15rem;
+    overflow: hidden;
+    margin:0;
+
 }
 
 .footer-container .content-name-p>p{
@@ -151,7 +182,7 @@
     height: 100px;
     width:100px;
     border-radius: 20px;    
-    margin-right: 1rem;
+    margin:1rem 0 0 0;
 }
 .footer-line{
     font-size: 20px;
