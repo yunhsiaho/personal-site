@@ -2,7 +2,9 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div className="portfolio-container container">portfolio</div>
+    <div className="portfolio-container container">
+            <h1 className='bungee-regular'>portfolio</h1>
+    </div>
   )
 }
 

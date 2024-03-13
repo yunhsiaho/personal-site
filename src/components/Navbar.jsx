@@ -17,7 +17,10 @@ const Navbar = () => {
       <div className="navbar-container">
         <a href="#about" className="bungee-hairline-regular">about</a>
         <a href="" className="bungee-hairline-regular">resume</a>
-        <a href="" className="bungee-regular">YUN-HSIA HO</a>
+        <a href="" className="bungee-regular">
+          <p className="bungee-regular">YUN-HSIA</p>
+          <p className="bungee-regular">HO</p>
+          </a>
         <a href="" className="bungee-hairline-regular">portfolio</a>
         <a href="" className="bungee-hairline-regular">profile</a>
       </div>

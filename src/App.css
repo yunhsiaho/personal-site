@@ -36,24 +36,35 @@
 
   }
   
-  /* .arvo-regular-italic {
+  .arvo-regular-italic {
     font-family: "Arvo", serif;
     font-weight: 400;
     font-style: italic;
+    background-color: transparent;
+
   }
   
   .arvo-bold {
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: normal;
+    background-color: transparent;
+
   }
   
   .arvo-bold-italic {
     font-family: "Arvo", serif;
     font-weight: 700;
     font-style: italic;
-  } */
-      
+    background-color: transparent;
+
+  }
+h1{
+    font-size: 1.5rem;
+    margin: 2rem 5rem;
+    position: relative;
+    z-index:5;
+}
 
 /* home */
 .home-container #top-img{
@@ -89,12 +100,32 @@
     text-align: center;
     background-color: transparent;
 }
+.navbar-container a{
+    font-size: 1.5rem;
+}
 
+.navbar-container a p:first-child{
+    font-size: 30px;
+    margin-bottom: -30px;
+}
+.navbar-container a p:last-child{
+    font-size: 30px;
 
+}
 
 /* about */
 .about-container{
-    margin-top: 5.5rem;
+    margin-top: 10rem;
+}
+.about-content{
+    display: flex;
+    background-color: transparent;
+}
+.about-content p{
+    margin:2rem 5rem;
+    width: 80%;
+    font-size: 20px;
+
 }
 
 /* resume */
