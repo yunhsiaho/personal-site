@@ -66,6 +66,10 @@ h1{
     z-index:5;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
 /* home */
 .home-container #top-img{
     width: 110%;
@@ -138,7 +142,45 @@ h1{
 
 /* profile */
 .profile-container{
+    /* border : 1px solid red ; */
+    
 } 
+
+.profile .connect{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.profile, .profile *{  /* choose all the child elements recursively */
+    /* border : 1px solid black ; */
+    position: relative;
+    z-index: 5;
+    background-color: transparent;
+} 
+
+.links{
+    /* border : 1px solid green ; */
+    display: flex;
+}
+
+.links >*{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.link>img{
+    width: 30%;
+    height: auto;
+    filter: invert(24%) sepia(35%) saturate(341%) hue-rotate(328deg) brightness(92%) contrast(88%);
+}
+
+.link>p{
+    margin-top: 1rem;
+    font-size: 25px;
+}
 
 /* footer */
 .footer-container{
@@ -188,7 +230,7 @@ h1{
 }
 
 .footer-container .content-name{
-    text-transform: capitalize;
+    text-transform: uppercase;
     width: 50%;
     /* border : 1px solid green ; */
     

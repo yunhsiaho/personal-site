@@ -4,26 +4,25 @@
 
 ## TODO
 
-### About
+### About 2
 
 - photo blocks *2
 
-### Resume
+### Resume 3
 
 - Text and skills
 - blur resume image
 - click resume to open resume
 
-### Portfolio
+### Portfolio 4
 
 - carousel framework?(5 works)
 - single carousel element design
 
+### Profile 1
 
-### Profile
-
-- sng of links and text
-- connect the links
+- --sng of links and text+
+- connect the links (with JS?)
 
 ### General
 
@@ -37,6 +36,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Inspired by the Youtube video of [The Hyper Art](https://www.youtube.com/watch?v=GVjIflROwJ4&list=WL&index=1).
 Figma design is :
 Libraries used: react icons, mui
+
 ## Available Scripts
 
 In the project directory, you can run:
