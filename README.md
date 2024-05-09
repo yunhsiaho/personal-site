@@ -21,13 +21,15 @@
 
 ### Profile 1
 
-- --sng of links and text+
+- ~~sng of links and text~~
 - connect the links (with JS?)
+- ~~title attribute tags~~
 
 ### General
 
 - background circles
 - background color blocks shifted
+- responsive
 - hover/animations...
 
 ## Getting Started with Create React App

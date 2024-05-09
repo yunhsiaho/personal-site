@@ -14,8 +14,8 @@ const About = () => {
       My enthusiasm for web development and UI/UX design equips me with the skills to communicate with the world.
       </p>      
       <div className="about-img">
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img className="photo1" src="" alt="" />
+        <img className="photo2" src="" alt="" />
       </div>
       </div>
     </div>
