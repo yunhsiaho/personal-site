@@ -1,4 +1,37 @@
-# Getting Started with Create React App
+# Personal site
+
+## Intro
+
+## TODO
+
+### About
+
+- photo blocks *2
+
+### Resume
+
+- Text and skills
+- blur resume image
+- click resume to open resume
+
+### Portfolio
+
+- carousel framework?(5 works)
+- single carousel element design
+
+
+### Profile
+
+- sng of links and text
+- connect the links
+
+### General
+
+- background circles
+- background color blocks shifted
+- hover/animations...
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Inspired by the Youtube video of [The Hyper Art](https://www.youtube.com/watch?v=GVjIflROwJ4&list=WL&index=1).
