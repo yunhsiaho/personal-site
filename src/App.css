@@ -136,19 +136,23 @@ h1{
 
 .about-img{
     background-color: transparent;
+    overflow: hidden;
 }
 
-.photo1{
-    width: 100px;
-    height:100px;
-    border:solid 1px red;
+.about-photo-left{
+    border: solid 1.5px #826A5F;
+    border-radius: 50% 12% 12% 50%;
+    height: 260px;
+    width: 187px;
+    margin: 0.7rem;
 }
 
-.photo2{
-    width: 100px;
-    height:100px;
-    border:solid 1px red;
-
+.about-photo-right{
+    border: solid 1.5px #826A5F;
+    border-radius: 8% 40% 8% 8%;
+    height: 330px;
+    width: 247px;
+    margin: 0.7rem;
 }
 
 /* resume */
