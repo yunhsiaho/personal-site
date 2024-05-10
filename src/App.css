@@ -62,8 +62,7 @@
 
 /* General settings */
 h1{
-    font-size: 1.5rem;
-    margin: 2rem 5rem;
+    margin: 0 5rem;
     position: relative;
     z-index:5;
 }
@@ -75,7 +74,7 @@ h1{
 /* home */
 .home-container #top-img{
     width: 110%;
-    top: -50px;
+    top: -70px;
     left: -80px;
     position: absolute;
     background-color: transparent;
@@ -121,38 +120,47 @@ h1{
 
 /* about */
 .about-container{
-    margin-top: 10rem;
+    margin-top: 12rem;
+    /* border : 1px solid blue ; */
+    
 }
 .about-content{
     display: flex;
     background-color: transparent;
+    /* border : 1px solid red ; */
+    
 }
 .about-content p{
     margin:2rem 5rem;
     width: 80%;
-    font-size: 20px;
+    font-size: 1.5rem;
 
 }
 
 .about-img{
     background-color: transparent;
     overflow: hidden;
+    /* border : 1px solid green ; */
+    
 }
 
 .about-photo-left{
-    border: solid 1.5px #826A5F;
-    border-radius: 50% 12% 12% 50%;
-    height: 260px;
-    width: 187px;
-    margin: 0.7rem;
+    border: solid 2px #826A5F;
+    border-radius: 45% 10% 10% 40%;
+    height: 315px;
+    width: 256px;
+    margin: 0 1rem;
 }
 
 .about-photo-right{
-    border: solid 1.5px #826A5F;
+    border: solid 2px #826A5F;
     border-radius: 8% 40% 8% 8%;
-    height: 330px;
-    width: 247px;
-    margin: 0.7rem;
+    height: 396px;
+    width: 296px;
+    margin: 0 1rem;
+    margin-top: -4.8rem;
+    position:absolute;
+
 }
 
 /* resume */

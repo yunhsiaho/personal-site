@@ -1,6 +1,6 @@
 import React from 'react';
-import p1 from '../assets/p12.jpg';
-import p2 from '../assets/p13.jpeg';
+import aboutLeft from '../assets/p2.jpg';
+import aboutRight from '../assets/about-right.jpeg';
 
 const About = () => {
   return (
@@ -15,8 +15,8 @@ const About = () => {
       My enthusiasm for web development and UI/UX design equips me with the skills to communicate with the world.
       </p>      
       <div className="about-img">
-        <img className="about-photo-left" src={p1} alt="#" />
-        <img className="about-photo-right" src={p2} alt="#" />
+        <img className="about-photo-left" src={aboutLeft} alt="#" />
+        <img className="about-photo-right" src={aboutRight} alt="#" />
       </div>
       </div>
     </div>

@@ -7,6 +7,7 @@
 ### About 2
 
 - photo blocks *2
+- which photo left?
 
 ### Resume 3
 
@@ -31,6 +32,7 @@
 - background color blocks shifted
 - responsive
 - hover/animations...
+- all the font sizes
 
 ## Getting Started with Create React App
 
