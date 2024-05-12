@@ -99,24 +99,29 @@ h1{
 }
 .navbar-container{
     position: absolute;
-    top: 2.5rem;
+    top: 1.6rem;
     display: flex;
     justify-content:space-around;
     text-align: center;
     background-color: transparent;
 }
 .navbar-container a{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    -webkit-text-stroke:1px #54413B;
+}
+
+
+.navbar-container a p{
+    font-size: 2.5rem;
 }
 
 .navbar-container a p:first-child{
-    font-size: 30px;
     margin-bottom: -30px;
 }
-.navbar-container a p:last-child{
+/* .navbar-container a p:last-child{
     font-size: 30px;
 
-}
+} */
 
 /* about */
 .about-container{

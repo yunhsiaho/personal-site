@@ -12,6 +12,7 @@
 ### Resume 3
 
 - Text and skills
+- make a cv(europass)
 - blur resume image
 - click resume to open resume
 
@@ -19,6 +20,10 @@
 
 - carousel framework?(5 works)
 - single carousel element design
+- drumkit, weather apps
+- greedy snake, list the readme
+- java brick, java paper scissor stone game
+- and maybe the clock
 
 ### Profile 1
 

@@ -10,7 +10,7 @@ import backGroundbottom from "../assets/background-bottom.png";
 
 
 
-const Home = () => {
+const Home = () => {  
   return (
     <div className='home-container'>
       <img src={backGroundTop} alt="#" id='top-img' />    
