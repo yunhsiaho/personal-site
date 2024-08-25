@@ -150,20 +150,20 @@ h1{
 }
 
 .about-photo-left{
-    border: solid 2px #826A5F;
     border-radius: 45% 10% 10% 40%;
     height: 315px;
     width: 256px;
-    margin: 0 1rem;
+    margin: 0.5rem 0.8rem;
+    box-shadow: 3px 2px 7px 2px #826A5F;
 }
 
 .about-photo-right{
-    border: solid 2px #826A5F;
     border-radius: 8% 40% 8% 8%;
     height: 396px;
     width: 296px;
-    margin: 0 1rem;
-    margin-top: -4.8rem;
+    margin: 0.5rem 0.8rem;
+    box-shadow: 3px 2px 7px 2px #826A5F;
+    margin-top: -4.5rem;
     position:absolute;
 
 }
