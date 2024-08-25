@@ -10,4 +10,4 @@ This project, developed using **React.js** in **VS Code**, started as a fun side
 ## Design
 This design is made by figma, where I learnt the skill from the online UX design course by GOOGLE on Coursera platform.
 
-![image](/portfolio_design-1.png)
+![image](/portfolio_design.png)
